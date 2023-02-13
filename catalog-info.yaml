@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ADRs
+  annotations:
+    github.com/project-slug: mkorcy/ADRs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: other
+  lifecycle: unknown
+  owner: mkorcy
