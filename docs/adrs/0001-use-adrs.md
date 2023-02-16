@@ -1,20 +1,23 @@
----
-id: adrs-adr001
-title: 'ADR001: Architecture Decision Record (ADR) log'
-# prettier-ignore
-description: Architecture Decision Record (ADR) logs as a reference point for the team
----
+# Title: Use ADRs to document technical decisions
 
-## Decision
+## Status
+Accepted
 
-A decision was made to store ADRs in a log in the project repository
+## Date
+February 7, 2023
 
-## Discussion
+## Deciders
+Technical Architecture Group
 
-There is a need to store big decisions made in a log as a reference point for
-the team, help with onboarding new members and give context to others interested
-in the project.
+## Context
 
-## Risks
+Collectively, we often make technical decisions that affect the architecture, design, and implementation of systems at Tufts. These decisions need to be communicated to the team members, stakeholders, and future employees in a clear and concise way. We also need to be able to track the reasoning behind each decision, and to revise or update decisions when necessary.
 
-People stop adding ADRs to the log and context gets lost
+## Decision Drivers
+- Need for a standard and consistent way of documenting technical decisions
+
+## Considered Options
+
+## Decision Outcome
+
+## Consequences
