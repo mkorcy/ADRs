@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ADRs
+  name: Tufts Architecture Group
   annotations:
     github.com/project-slug: mkorcy/ADRs
     backstage.io/techdocs-ref: dir:.

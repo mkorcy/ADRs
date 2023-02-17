@@ -14,7 +14,7 @@ We have multiple software projects that we develop and maintain. These projects 
 
 ## Decision Drivers
 - Git is the Source Code Management (SCM) tool of choice in TTS
-- Availability of features such as code review, pull requests, and issue tracking
+- Availability of features such as code review, pull requests, and CI/CD
 - Ease of use and learning curve for team members
 - Integration with other tools and services we use
 - Support and community resources available
@@ -30,7 +30,7 @@ We have multiple software projects that we develop and maintain. These projects 
 After discussing both Github, Gitlab and Bitbucket in various forums, and using both Gitlab and Github for extending periods of time in various parts of TTS, we have decided to use Github. Here are the main reasons behind this decision:
 
 ### Availability of features
-Github offers a set of features that we require for our software projects, such as code review, pull requests, and issue tracking. While Gitlab offers similar functionality, we found that Github's implementation was a bit more polished and had a more extensive integration ecosystem that we could take advantage of in the future. Additionally, Github has a large and active community of developers that provides a wealth of resources and support.
+Github offers a set of features that we require for our software projects, such as code review, pull requests, and CI/CD. While Gitlab offers similar functionality, we found that Github's implementation was a bit more polished and had a more extensive integration ecosystem that we could take advantage of in the future. Additionally, Github has a large and active community of developers that provides a wealth of resources and support.
 
 ### Ease of use and learning curve
 We found that Github has a more user-friendly interface and a shallower learning curve for our team members. The tool is intuitive and easy to navigate, which helps us streamline our development workflow and reduce the learning curve for new team members.
@@ -39,7 +39,7 @@ We found that Github has a more user-friendly interface and a shallower learning
 Github integrates well with a wide range of other tools and services that we use, such as CI/CD pipelines, project management tools, and documentation systems. This integration allows us to potentially automate many aspects of our development workflow.
 
 ### Support and community resources
-Github has a large and active community of developers that provides a wide array of training resources and support. This community has created many plugins, integrations, and workflows that we can leverage to improve our development process. Additionally, Github provides support and documentation resources, which should make it easy to troubleshoot issues and get help when needed.
+Github has a large and active community of developers that provides a wide array of training resources and support. This community has created many plugins, integrations, and workflows that we can leverage to improve our development processes. Additionally, Github provides support and documentation resources, which should make it easy to troubleshoot issues and get help when needed.
 
 ### Cost
 Currently, we have an on prem installation of Gitlab which is "free". We also have an Github Organization set up, with unlimited private repos which is also free.  With a driver of this decision being a desire to move to the cloud, and integrate with our SSO for easier onboarding, either option will likely cost more than we spend today.
@@ -63,4 +63,3 @@ However, this decision may have some drawbacks, such as:
 - A long horizon of needing to continue to support the on-prem Gitlab until projects are migrated.
 - Real potential for Gitlab to be a source of technical debt until we dedicate resource to migrate projects.
 
-Overall, we think that the benefits of using Github outweigh the drawbacks, and we are confident that this decision will help us streamline our development process and improve the quality of our software projects.

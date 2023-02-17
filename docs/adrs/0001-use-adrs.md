@@ -17,6 +17,8 @@ Collectively, we often make technical decisions that affect the architecture, de
 - Need for a standard and consistent way of documenting technical decisions
 
 ## Considered Options
+- Using ADRs
+- Creating o365 Docs in Box
 
 ## Decision Outcome
 
